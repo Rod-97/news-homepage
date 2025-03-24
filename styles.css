@@ -4,10 +4,16 @@
   --very-dark-blue: hsl(240, 100%, 5%);
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto";
 }
 
 li {
@@ -91,6 +97,14 @@ a {
 
 .shadow.active {
   display: block;
+}
+
+.main {
+  padding: 20px;
+}
+
+.mobile-web-img {
+  width: 100%;
 }
 
 @media (min-width: 600px) {
