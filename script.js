@@ -8,12 +8,9 @@ hamburgerIcon.addEventListener("click", () => {
   shadow.classList.add("active");
 });
 
-closeIcon.addEventListener("click", () => {
-  mobileNav.classList.remove("active");
-  shadow.classList.remove("active");
-});
-
-shadow.addEventListener("click", () => {
-  mobileNav.classList.remove("active");
-  shadow.classList.remove("active");
+[closeIcon, shadow].forEach((el) => {
+  el.addEventListener("click", () => {
+    mobileNav.classList.remove("active");
+    shadow.classList.remove("active");
+  });
 });
