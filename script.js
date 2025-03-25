@@ -12,3 +12,8 @@ closeIcon.addEventListener("click", () => {
   mobileNav.classList.remove("active");
   shadow.classList.remove("active");
 });
+
+shadow.addEventListener("click", () => {
+  mobileNav.classList.remove("active");
+  shadow.classList.remove("active");
+});
