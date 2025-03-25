@@ -231,6 +231,10 @@ a {
 }
 
 @media (min-width: 600px) {
+  body {
+    padding: 50px 80px;
+  }
+
   .mobile-nav,
   .mobile-nav.active,
   .shadow,
@@ -243,6 +247,7 @@ a {
   .desktop-img {
     display: block;
     width: 100%;
+    height: 100%;
   }
 
   .desktop-nav {
@@ -256,6 +261,7 @@ a {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr 1fr;
+    gap: 25px;
   }
 
   .future-web-article {
